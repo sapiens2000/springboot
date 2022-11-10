@@ -12,7 +12,7 @@ import javax.persistence.Id;
 
 @Getter
 @NoArgsConstructor
-@Entity(name="posts")
+@Entity
 public class Posts extends BaseTimeEntity {
 
     @Id
